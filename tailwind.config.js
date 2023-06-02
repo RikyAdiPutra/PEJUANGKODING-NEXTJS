@@ -1,3 +1,5 @@
+const { color } = require('framer-motion');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -12,7 +14,14 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        yellowcustom: "#EBD96B"
+      }
     },
+    container: {
+      center: true,
+    },
+
   },
   plugins: [],
 }
