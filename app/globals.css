@@ -16,9 +16,6 @@
   }
 }
 
-body {
-}
-
 .container {
-  @apply max-w-[1400px];
+  @apply max-w-[1500px];
 }
