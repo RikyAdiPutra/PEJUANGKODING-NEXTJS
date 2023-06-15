@@ -2,7 +2,8 @@
 // Props = nilai dinamis
 // Langkah langkah Props
 // 1. Isi Di Parameter
-// 2. Isi Di bagian elemennya (Attribut)
+// 2. Isi Di bagian elemennya (Attribut) = (props. ...) / {props.(width/height)}
+// Props == Distactoring Data
 
 import React from 'react'
 import Image from 'next/image'
@@ -17,7 +18,7 @@ function Itemlogo(props) {
 
 export default function Listlogo() {
     return (
-        <div className='bg-yellowcustom py-[20px] flex items-center gap-5 justify-between'>
+        <div className='py-[20px] flex items-center gap-5 justify-between'>
             <div className="container flex items-center justify-between">
                 <Itemlogo image="/logo/logo1.png" width={119} height={71}/>
                 <Itemlogo image="/logo/logo2.png" width={151} height={53}/>

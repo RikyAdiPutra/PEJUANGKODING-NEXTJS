@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Banner() {
   return (
-    <div className="container bg-blue-600 rounded-3xl justify-between flex items-center pt-10 px-20 gap-7">
+    <div className="container bg-gray-600 rounded-3xl justify-between flex items-center pt-10 px-20 gap-7">
       <div>
         <h1 className="font-black text-[70px] max-w-[400px]">
           <div
