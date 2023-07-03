@@ -27,20 +27,22 @@ export default function BelajarState() {
 
      return (
           <div className="container">
-               <div className="flex bg-yellowcustom max-w-[100px] items-center justify-between mx-auto">
-                    <span
-                         className="bg-red-600 p-2 w-7 cursor-pointer text-white"
-                         onClick={() => setValue(lessValue)}
-                    >
-                         -
-                    </span>
-                    <label for="">{firstValue}</label>
-                    <span
-                         className="bg-red-600 p-2 w-7 cursor-pointer text-white"
-                         onClick={() => setValue(addValue)}
-                    >
-                         +
-                    </span>
+               <div className="absolute top-[50%] left-[50%]">
+                    <div className="flex bg-yellowcustom max-w-[100px] items-center justify-between mx-auto">
+                         <span
+                              className="bg-red-600 p-2 w-7 cursor-pointer text-white"
+                              onClick={() => setValue(lessValue)}
+                         >
+                              -
+                         </span>
+                         <label for="">{firstValue}</label>
+                         <span
+                              className="bg-red-600 p-2 w-7 cursor-pointer text-white"
+                              onClick={() => setValue(addValue)}
+                         >
+                              +
+                         </span>
+                    </div>
                </div>
           </div>
      );
