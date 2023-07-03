@@ -23,7 +23,7 @@ export default function Products() {
      return (
           <div className="container my-12">
                <div className="bg-blue-400 flex justify-between rounded-lg p-7 mb-10">
-                    <Link href="/">Logo</Link>
+                    <Link href="/">Logo</Link>l
                     <div>Cart: 0 | 20.000</div>
                </div>
                <div className="flex flex-wrap">
